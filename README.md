@@ -72,7 +72,7 @@ Hello world
 docker run hello-world
 docker ps -a        # list all containers, even non-running ones
 docker rm <container-name>      # remove the container
-docker run --rm hello-world     # run without creating container
+docker run --rm hello-world     # run and remove container directly afterwards
 docker ps -a
 ```
 
